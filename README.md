@@ -27,10 +27,10 @@ This project processes raw AIS (Automatic Identification System) vessel data to 
 1. Change the initial file path in filter_noise file at the bottom.
 2. Make sure a new file was created in /files/cleaned/ directory.
 3. Running the port detection inspect logs:
-Logs example:
-2025-06-01 10:53:34 - INFO - Number of clusters (excluding noise): 85
-2025-06-01 10:53:34 - INFO - Number of noise points: 114
-2025-06-01 10:53:34 - INFO - Detecting port sizes.
-2025-06-01 10:53:34 - INFO - Saving and opening ports map.
+Logs example: <br />
+2025-06-01 10:53:34 - INFO - Number of clusters (excluding noise): 85 <br />
+2025-06-01 10:53:34 - INFO - Number of noise points: 114 <br />
+2025-06-01 10:53:34 - INFO - Detecting port sizes. <br />
+2025-06-01 10:53:34 - INFO - Saving and opening ports map. <br />
 
-4. Port map will be opened in the browser automatically.
+5. Port map will be opened in the browser automatically.
