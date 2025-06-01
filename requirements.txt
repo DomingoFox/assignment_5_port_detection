@@ -1,0 +1,6 @@
+pyspark
+folium
+scikit-learn
+pandas
+numpy
+matplotlib
