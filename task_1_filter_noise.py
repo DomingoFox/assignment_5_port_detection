@@ -28,6 +28,7 @@ def clean_data(df):
     log.info("Casting columns and filtering noise...")
 
     df = df.withColumnRenamed("Navigational status", "navigational_status")
+    df = df.withColumnRenamed("# Timestamp", "Timestamp")
     df = df.select(
         col("MMSI").cast("int"),
         to_timestamp(col("Timestamp"), "dd/MM/yyyy HH:mm:ss").alias("Timestamp"),
